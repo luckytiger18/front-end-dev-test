@@ -7,16 +7,20 @@ document.addEventListener('DOMContentLoaded', function() {
     initialView: 'dayGridMonth',
     events: [
         {
+            title: 'Breakfast',
+            start: '2020-08-04T07:30:00'
+          },
+        {
+            title: 'Walk to Garden',
+            start: '2020-08-04T14:30:00'
+          },
+        {
           title: 'Adventure Walk',
           start: '2020-08-06T14:00:00'
         },
         {
             title: 'Park Date',
             start: '2020-08-05T15:00:00'
-          },
-        {
-            title: 'Pooped',
-            start: '2020-08-04T07:30:00',
           },
           {
             title: 'Pooped',
