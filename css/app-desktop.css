@@ -24,10 +24,9 @@ p {
 }
 
 .welcomeBackground {
-    background: url(../front-end-dev-test-assets/IMG_3523.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/IMG_3523.JPG) no-repeat;
     height: 800px;
     width: 100%;
-    /* background-size: cover; */
     color: white;
 }
 
@@ -103,13 +102,17 @@ p {
 
 .section5Content {
     margin-top: 6%;
-    /* padding-right: 10%;
-    padding-left: 5%; */
 }
 
 #section5Title,
 #section3Title {
     font-size: 2.5rem;
+}
+
+#popcornsTitle {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 .bannerButton {
@@ -238,3 +241,10 @@ i {
 footer {
     background-color: #FAFAFA;
 }
+
+#calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+    height: 650px;
+    font-family: 'Raleway', sans-serif;
+  }

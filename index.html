@@ -25,6 +25,10 @@
   <link rel="stylesheet" href="./css/app-desktop.css">
   <link rel="stylesheet" href="./css/app-mobile.css">
   <link rel="stylesheet" href="./css/app-tablet.css">
+
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.2.0/main.css' rel='stylesheet' />
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.2.0/main.js'></script>
+
 </head>
 
 <body>
@@ -97,7 +101,7 @@
           lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula..</p>
 
         <a href="#section5">
-          <h5 class="roosterDirectLink"> > Favorite Time </h5>
+          <h5 class="roosterDirectLink"> > Popcorn's Activity Log </h5>
         </a>
       </div>
 
@@ -105,7 +109,7 @@
         <div class="row section4IconRow">
           <div class="col-md-4 roosterIconContainer">
             <div class="roosterIcon">
-             <img src="./front-end-dev-test-assets/1.png" alt="Sun Bathing">
+              <img src="./front-end-dev-test-assets/1.png" alt="Sun Bathing">
             </div>
             <p>Sun Bathing</p>
           </div>
@@ -137,7 +141,13 @@
     </div>
   </div>
 
-  <!-- Section 5 -->
+  <!-- Secion 5 -->
+  <div id="popcornsTitle">
+    Popcorn's Activity Log
+  </div>
+  <div id="calendar"></div>
+
+  <!-- Section 6 -->
   <div class="container-fluid" id="section5">
     <div class="row roosterBanner">
       <div class="col-md-1"></div>
@@ -325,6 +335,9 @@
       </div>
     </div>
   </footer>
+
+  <script src="./src/app.js"></script>
 </body>
+
 
 </html>
