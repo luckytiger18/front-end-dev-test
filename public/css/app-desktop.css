@@ -24,7 +24,7 @@ p {
 }
 
 .welcomeBackground {
-    background: url(../front-end-dev-test-assets/IMG_3523.JPG) no-repeat;
+    background: url(/images/IMG_3523.JPG) no-repeat;
     height: 800px;
     width: 100%;
     color: white;
@@ -78,7 +78,7 @@ p {
 }
 
 .teamworkPicture {
-    background: url(../front-end-dev-test-assets/IMG_3499.JPG) no-repeat;
+    background: url(/images/IMG_3499.JPG) no-repeat;
     height: 600px;
 }
 
@@ -88,7 +88,7 @@ p {
 }
 
 .section3Banner {
-    background: url(../front-end-dev-test-assets/outside.jpg) no-repeat;
+    background: url(/images/outside.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -97,7 +97,7 @@ p {
 }
 
 .section5Banner {
-    background: url(../front-end-dev-test-assets/sleep.jpg) no-repeat;
+    background: url(/images/sleep.jpg) no-repeat;
 }
 
 .section5Content {
